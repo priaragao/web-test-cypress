@@ -1,0 +1,7 @@
+npm init -y
+npm install cypress --save-dev
+npx cypress -v
+
+
+inicializar o cypress
+npx cypress open
