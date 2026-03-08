@@ -1,7 +1,14 @@
 npm init -y
 npm install cypress --save-dev
 npx cypress -v
-
+npm i -D cypress-mochawesome-reporter cypress-multi-reporters mocha-junit-reporter
 
 inicializar o cypress
 npx cypress open
+npx cypress run
+npx cypress run --browser chrome
+
+
+configurar no package.json e executar:
+npm run cy:open:chrome
+npm run cy:run:chrome
